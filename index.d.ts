@@ -35,7 +35,6 @@ interface ExNativeFunction<
   retType: NativeFunctionReturnType;
   argTypes: NativeFunctionArgumentType[] | [];
 
-  /** @internal */
   nativeCallback<
     R extends NativeCallbackReturnType,
     A extends NativeCallbackArgumentType[] | [],
